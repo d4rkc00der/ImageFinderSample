@@ -1,0 +1,84 @@
+[debug (18.04.17 11:17:37)] Debug: setLogFile: /Users/shumakove/Documents/ImageFinderSample/app/libs/SikuliX-1.1.1-SetupLog.txt
+[debug (18.04.17 11:17:37)] RunSetup: ... starting with no args given
+[debug (18.04.17 11:17:37)] RunSetup: Setup: 1.1.1 2017-03-29_10:41 in folder:
+/Users/shumakove/Documents/ImageFinderSample/app/libs
+[debug (18.04.17 11:17:37)] RunSetup: RunningSystem: Mac OSX 10.11.6
+[debug (18.04.17 11:17:37)] RunSetup: parent of jar/classes: /Users/shumakove/Documents/ImageFinderSample/app/libs
+[debug (18.04.17 11:17:37)] RunSetup: RunningJava: Java 8 (x86_64) 1.8.0_111-b14
+[debug (18.04.17 11:17:37)] init user preferences
+[debug (18.04.17 11:18:01)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+/Users/shumakove/Documents/ImageFinderSample/app/libs
+--- Native support libraries for Mac OSX (sikulixlibs...)
+--- Package 2 ---
+sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar (Java API)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (18.04.17 11:18:04)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixlibsmac/1.1.1-SNAPSHOT/maven-metadata.xml,
+[debug (18.04.17 11:18:06)] RunSetup: getMavenJar: sikulixlibsmac-1.1.1-20170329.230802-154.jar
+[debug (18.04.17 11:18:06)] FileManager: Downloading sikulixlibsmac-1.1.1-20170329.230802-154.jar having 4852 KB
+[debug (18.04.17 11:21:03)] FileManager: downloaded 4852 KB to:
+/Users/shumakove/Library/Application Support/Sikulix/SikulixDownloads_201703291041/sikulixlibsmac-1.1.1-20170329.230802-154.jar
+[debug (18.04.17 11:21:03)] FileManager: download time: 176
+[debug (18.04.17 11:21:06)] RunSetup: Copied from Downloads: sikulixlibsmac
+[debug (18.04.17 11:21:06)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixsetupAPI/1.1.1-SNAPSHOT/maven-metadata.xml,
+[debug (18.04.17 11:21:06)] RunSetup: getMavenJar: sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar
+[debug (18.04.17 11:21:06)] FileManager: Downloading sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar having 9352 KB
+[debug (18.04.17 11:29:45)] FileManager: downloaded 9352 KB to:
+/Users/shumakove/Library/Application Support/Sikulix/SikulixDownloads_201703291041/sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar
+[debug (18.04.17 11:29:45)] FileManager: download time: 517
+[debug (18.04.17 11:29:48)] RunSetup: Copied from Downloads: sikulixapi
+[debug (18.04.17 11:29:48)] RunSetup: Download ended
+[debug (18.04.17 11:29:48)] RunSetup: Downloads for selected options:
+sikulixlibsmac-1.1.1-20170329.230802-154.jar sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar 
+[debug (18.04.17 11:29:48)] RunSetup: adding needed stuff to sikulixapi.jar
+[debug (18.04.17 11:29:48)] FileManager: buildJar: sikulixtemp.jar
+[debug (18.04.17 11:29:48)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (18.04.17 11:29:50)] FileManager: buildJar: adding: sikulixlibsmac.jar
+[debug (18.04.17 11:29:50)] FileManager: buildJar: completed
+[debug (18.04.17 11:29:50)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixapi.jar
+[debug (18.04.17 11:29:51)] RunSetup: Trying to run functional test: JAVA-API
+[debug (18.04.17 11:29:51)] RunTimeSETUP: addToClasspath:
+file:/Users/shumakove/Documents/ImageFinderSample/app/libs/sikulixapi.jar
+[debug (18.04.17 11:29:51)] RunSetup: trying to run org.sikuli.script.Sikulix.testSetup()
+[debug (18.04.17 11:29:51)] RunSetup: class found: class org.sikuli.script.Sikulix
+[debug (18.04.17 11:29:51)] RunSetup: getMethod: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (18.04.17 11:29:56)] RunSetup: invoke: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (18.04.17 11:29:56)] RunTimeSETUP: exists libs folder at: /Users/shumakove/Library/Application Support/Sikulix/SikulixLibs_201703291041
+[debug (18.04.17 11:29:56)] RunTimeSETUP: libs folder empty or has wrong content
+[debug (18.04.17 11:29:56)] RunTimeSETUP: now exporting libs
+[debug (18.04.17 11:29:56)] RunTimeSETUP: libs to export are at:
+jar:file:/Users/shumakove/Documents/ImageFinderSample/app/libs/sikulixsetup-1.1.1.jar!/sikulixlibs/mac/libs64
+[debug (18.04.17 11:29:56)] RunTimeSETUP: resourceList: enter
+[debug (18.04.17 11:29:56)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /sikulixlibs/mac/libs64
+[debug (18.04.17 11:29:56)] RunTimeSETUP: resourceList: having jar: jar:file:/Users/shumakove/Documents/ImageFinderSample/app/libs/sikulixsetup-1.1.1.jar!/sikulixlibs/mac/libs64
+[debug (18.04.17 11:29:56)] RunTimeSETUP: files exported: 11 from: /sikulixlibs/mac/libs64 to:
+ /Users/shumakove/Library/Application Support/Sikulix/SikulixLibs_201703291041
+[debug (18.04.17 11:29:56)] RunTimeSETUP: loadLib: libVisionProxy.dylib
+[debug (18.04.17 11:29:56)] Mouse: init start
+[debug (18.04.17 11:29:57)] Mouse: init end
+[debug (18.04.17 11:29:57)] Image: BufferedImage: (100, 100)
+[debug (18.04.17 11:29:57)] Finder: Image: __BufferedImage__: (100x100)
+[debug (18.04.17 11:29:57)] Sikulix: testSetup: Finder setup with image worked
+[debug (18.04.17 11:29:57)] FileManager: tempfile create:
+/var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png
+[debug (18.04.17 11:29:57)] Image: loaded: /var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png (file:/private/var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png)
+[debug (18.04.17 11:29:57)] Image: cached: /var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png (29 KB) (# 1 KB 29 -- 0 % of 64 MB)
+[debug (18.04.17 11:29:57)] Sikulix: testSetup: Finder setup with image file worked
+[debug (18.04.17 11:29:57)] Image: reused: /var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png (file:/private/var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png)
+[debug (18.04.17 11:29:57)] Region: wait: waiting 3,0 secs for /var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png to appear in S(0)[0,0 1280x800]
+[debug (18.04.17 11:29:57)] Region: wait: /var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png appeared (M[0,0 100x100]@S(S(0)[0,0 1280x800]) S:1,00 C:50,50 [185 msec])
+[debug (18.04.17 11:29:57)] Sikulix: testSetup: Screen.find(imagefile) worked
+[debug (18.04.17 11:29:57)] Image: reused: /var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png (file:/private/var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png)
+[debug (18.04.17 11:29:57)] Region: wait: waiting 3,0 secs for /var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png to appear in S(0)[0,0 1280x800]
+[debug (18.04.17 11:29:57)] Region: wait: /var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467/sikuli-7239882312904485097.png appeared (M[0,0 100x100]@S(S(0)[0,0 1280x800]) S:1,00 C:50,50 [164 msec])
+[debug (18.04.17 11:29:57)] Sikulix: testSetup: repeated Screen.find(imagefile) worked
+[debug (18.04.17 11:30:02)] Sikulix: testSetup: Finder.find: worked
+[debug (18.04.17 11:30:08)] RunSetup: ... SikuliX Setup seems to have ended successfully ;-)
+[debug (18.04.17 11:30:08)] RunTimeSETUP: final cleanup
+[debug (18.04.17 11:30:08)] FileManager: deleteFileOrFolder:
+/var/folders/3_/k5wv0zx13y71br5j1b0r74f00000gn/T/Sikulix_1348642467
